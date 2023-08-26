@@ -93,7 +93,7 @@ document.querySelector("#settingsBtn button").onclick = () => {
 	createModal(`
 		<h3>How to Play</h3>
 		<p>Both players tap on their portions of the screen represented by the colours, ensure you tap as fast as you can in order to increase the height of your portion and win</p>
-		<p>P.S.: Remember the trick is to tap the screen, not to hit it, while you do this, ensure you are not hitting the screen so hard that you wnd up breaking it. The developer is in no way responsible for this.</p>
+		<p>P.S.: Remember the trick is to tap the screen, not to hit it, while you do this, ensure you are not hitting the screen so hard that you end up breaking it. The developer is in no way responsible for this.</p>
 		<button class='fas fa-check' onclick='modal.parentElement.style.display= "none"'></button>
 	`)
 }
