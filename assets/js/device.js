@@ -4,7 +4,7 @@ const throwError = () => {
 	createModal(`
 			<h3 class='fas fa-info'></h3>
 				<p>Your device is not compatible with this game. Please launch it on a smartphone</p>
-				<p>If you are using a smartphone and the game is not working, kindly contact the developer <a href='mailto: codinglabz20@gmail.com'>here</a></p>
+				<p>If you are using a smartphone and the game is not working, ensure yiu are no in desktop mode. If the issue persists, kindly turn contact the developer <a href='mailto: codinglabz20@gmail.com'>here</a></p>
 			`)
 }
 

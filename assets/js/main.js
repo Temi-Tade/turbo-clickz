@@ -15,7 +15,7 @@ const createModal = (content) => {
 
 let requestPlayerNames = () => {
 	createModal(`
-			<form>
+			<form autocomplete='off' spellcheck='false'>
 				<h3><i class='fas fa-user-friends'></i>Player Names</h3>
 				<input type='text' id='player1Name' placeholder='Player1 Name...' maxlength='8' required>
 				<input type='text' id='player2Name' placeholder='Player2 Name...' maxlength='8' required>
