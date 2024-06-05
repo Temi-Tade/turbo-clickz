@@ -28,7 +28,7 @@ let requestPlayerNames = () => {
 		let names = modal.querySelectorAll('input[type=text]');
 		let name_card = document.querySelectorAll("#container small");
 		
-		if (names[0].value.trim() === names[1].value.trim()) {
+		if (names[0].value.trim().toUpperCase() === names[1].value.trim().toUpperCase()) {
 			alert('Players cannot have the same name');
 			return;
 		}else if (names[0].value.trim().length === 0 || names[1].value.trim().length === 0){
@@ -51,7 +51,7 @@ let checkHeight = (ind, name) => {
 	if (tiles[ind].style.height === '100%'){
 		createModal(`
 		<h3 class='fas fa-trophy'></h3>
-			<p>${name} wins!</p>
+			<p style='padding: 1rem'>${name} wins!</p>
 			<button class='fas fa-redo' id='replay'></button>
 		`);
 	}
