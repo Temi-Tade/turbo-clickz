@@ -3,7 +3,7 @@
   "short_name": "Turbo-Clickz",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "linear(#fff, #333)",
+  "background_color": "linear-gradient(#fff, #333)",
   "description": "A tapping game, just for fun 🙂.",
   "icons": [
     {
