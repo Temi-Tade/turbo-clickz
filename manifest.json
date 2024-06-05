@@ -1,9 +1,9 @@
 {
-  "name": "To-Do List",
-  "short_name": "To-Do",
+  "name": "Turbo-Clickz",
+  "short_name": "Turbo-Clickz",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#fff",
+  "background_color": "linear(#fff, #333)",
   "description": "A tapping game, just for fun 🙂.",
   "icons": [
     {
