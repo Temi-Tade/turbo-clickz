@@ -1,2 +1,2 @@
-# abiut this repo
+# about this repo
 This is a web based game developed for mobile devices.
